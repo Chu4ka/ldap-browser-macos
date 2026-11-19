@@ -1,0 +1,142 @@
+<!--
+	Licensed to the Apache Software Foundation (ASF) under one
+	or more contributor license agreements.  See the NOTICE file
+	distributed with this work for additional information
+	regarding copyright ownership.  The ASF licenses this file
+	to you under the Apache License, Version 2.0 (the
+	"License"); you may not use this file except in compliance
+	with the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing,
+	software distributed under the License is distributed on an
+	"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+	KIND, either express or implied.  See the License for the
+	specific language governing permissions and limitations
+	under the License.
+-->
+<section id="gettingstarted_configuration_editor_partitions">
+	<title>Partitions Page</title>
+	<para>
+		The
+		<emphasis role="strong">Partitions Page</emphasis>
+		of the configuration editor allows you to edit the server
+		partitions.
+	</para>
+	<para>
+		Here's what the
+		<emphasis role="strong">Partitions Page</emphasis>
+		looks like:
+		<screenshot>
+			<mediaobject>
+				<imageobject>
+					<imagedata scale="33"
+						fileref="images/gettingstarted/editor_2.0.0_partitions.png"
+						format="PNG" />
+				</imageobject>
+			</mediaobject>
+		</screenshot>
+	</para>
+	<para>The page is divided vertically in two parts.</para>
+	<para>
+		The left side of the page shows the partitions defined on the
+		server. This is where you can add or delete a partition.
+	</para>
+	<para>
+		The following icons appear:
+		<itemizedlist spacing="normal" mark="bullet">
+			<listitem>
+				<imageobject>
+					<imagedata scale="50"
+						fileref="images/gettingstarted/partition.gif" format="GIF" />
+				</imageobject>
+				: Standard Partition
+			</listitem>
+			<listitem>
+				<imageobject>
+					<imagedata scale="50"
+						fileref="images/gettingstarted/partition_system.gif" format="GIF" />
+				</imageobject>
+				: System Partition
+			</listitem>
+		</itemizedlist>
+	</para>
+	<para>
+		The right side of the page display and lets you edit the details
+		of the selected partition in the left side.
+	</para>
+
+	<simplesect id="configuration_editor_2.0.0_partitions_details">
+		<title>Partition General Details</title>
+		<para>
+			<emphasis role="strong">Partiton Type</emphasis>
+			allows you to choose the partition type.
+			Available options are JDBM or Mavibot.
+		</para>
+		<para>
+			An
+			<emphasis role="strong">ID</emphasis>
+			is mandatory for the partition.
+		</para>
+		<para>
+			A
+			<emphasis role="strong">Suffix</emphasis>
+			is mandatory for the partition and defines the context entry DN.
+		</para>
+		<para>
+			Check the
+			<emphasis role="strong">Synchronization On Write</emphasis>
+			checkbox to enable the synchronization on write for the
+			partition.
+		</para>
+	</simplesect>
+
+	<simplesect id="configuration_editor_2.0.0_partitions_context_entry">
+		<title>Context Entry</title>
+		<para>
+			Check the
+			<emphasis role="strong">Auto-generate context entry from suffix DN</emphasis>
+			to instruct the server to automatically generate
+			the context entry on first startup.
+		</para>
+		<para>
+			If you disable the auto-generation you have to specify all attributes.
+		</para>
+	</simplesect>
+
+	<simplesect id="configuration_editor_2.0.0_partition_specific_settings">
+		<title>Partition Specific Settings</title>
+		<para>
+			If you selected JDBM partition type the following settings are available.
+		</para>
+		<para>
+			The
+			<emphasis role="strong">Cache Size</emphasis>
+			defines the cache size of the partition.
+		</para>
+		<para>
+			Check the
+			<emphasis role="strong">Enable Optimizer</emphasis>
+			checkbox to enable the optimizer for the partition.
+		</para>
+	</simplesect>
+
+	<simplesect
+		id="configuration_editor_2.0.0_partitions_indexed_attributes">
+		<title>Indexed Attributes</title>
+		<para>
+			This section allows you to specify to the server the
+			attributes that should be indexed and their cache size.
+		</para>
+		<para>
+			Use the
+			<emphasis role="strong">Add...</emphasis>
+			,
+			<emphasis role="strong">Edit...</emphasis>
+			and
+			<emphasis role="strong">Delete</emphasis>
+			buttons to set the indexed attributes.
+		</para>
+	</simplesect>
+</section>

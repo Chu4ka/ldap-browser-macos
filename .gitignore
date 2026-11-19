@@ -1,0 +1,25 @@
+.classpath
+.project
+.settings
+.pmd
+target/
+META-INF/
+eclipse-trgt-platform/org.apache.directory.studio.eclipse-trgt-platform.target
+plugins/ldapbrowser.core/lib/
+plugins/ldapservers.apacheds/resources/libs/
+tests/test.integration.ui/screenshots
+.DS_Store
+workspace
+
+# Local configuration, exported connections and release output
+.env
+.env.*
+*.keytab
+*.p12
+*.pfx
+*.jks
+*.key
+*.log
+connections.xml
+secure_storage
+releases/

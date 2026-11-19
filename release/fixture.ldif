@@ -1,0 +1,16 @@
+dn: dc=studio,dc=test
+objectClass: top
+objectClass: domain
+dc: studio
+
+dn: ou=Samples,dc=studio,dc=test
+objectClass: top
+objectClass: organizationalUnit
+ou: Samples
+
+dn: cn=Studio Sample,ou=Samples,dc=studio,dc=test
+objectClass: top
+objectClass: person
+cn: Studio Sample
+sn: Sample
+description: Synthetic LDAP record for Apache Directory Studio GUI verification.

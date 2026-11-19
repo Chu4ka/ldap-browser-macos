@@ -1,0 +1,30 @@
+Component	Source archive	Source URL
+com.sun.el_2.2.0.v201303151357.jar	com.sun.el.source_2.2.0.v201303151357.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/com.sun.el.source_2.2.0.v201303151357.jar
+com.sun.jna.platform_5.8.0.v20210406-1004.jar	com.sun.jna.platform.source_5.8.0.v20210406-1004.jar	https://download.eclipse.org/tools/orbit/downloads/drops2/R20210602031627/repository/plugins/com.sun.jna.platform.source_5.8.0.v20210406-1004.jar
+com.sun.jna_5.8.0.v20210503-0343.jar	com.sun.jna.source_5.8.0.v20210503-0343.jar	https://download.eclipse.org/tools/orbit/downloads/drops2/R20210602031627/repository/plugins/com.sun.jna.source_5.8.0.v20210503-0343.jar
+jakarta.servlet-api_4.0.0.jar	jakarta.servlet-api.source_4.0.0.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/jakarta.servlet-api.source_4.0.0.jar
+javax.el_2.2.0.v201303151357.jar	javax.el.source_2.2.0.v201303151357.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/javax.el.source_2.2.0.v201303151357.jar
+javax.servlet.jsp_2.2.0.v201112011158.jar	javax.servlet.jsp.source_2.2.0.v201112011158.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/javax.servlet.jsp.source_2.2.0.v201112011158.jar
+org.apache.jasper.glassfish_2.2.2.v201501141630.jar	org.apache.jasper.glassfish.source_2.2.2.v201501141630.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.apache.jasper.glassfish.source_2.2.2.v201501141630.jar
+org.eclipse.ecf.filetransfer_5.1.102.v20210409-2301.jar	org.eclipse.ecf.filetransfer.source_5.1.102.v20210409-2301.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.ecf.filetransfer.source_5.1.102.v20210409-2301.jar
+org.eclipse.ecf.identity_3.9.402.v20210409-2301.jar	org.eclipse.ecf.identity.source_3.9.402.v20210409-2301.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.ecf.identity.source_3.9.402.v20210409-2301.jar
+org.eclipse.ecf.provider.filetransfer.httpclient5_1.0.300.v20220215-0126.jar	org.eclipse.ecf.provider.filetransfer.httpclient5.source_1.0.300.v20220215-0126.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.ecf.provider.filetransfer.httpclient5.source_1.0.300.v20220215-0126.jar
+org.eclipse.ecf.provider.filetransfer.ssl_1.0.201.v20210409-2301.jar	org.eclipse.ecf.provider.filetransfer.ssl.source_1.0.201.v20210409-2301.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.ecf.provider.filetransfer.ssl.source_1.0.201.v20210409-2301.jar
+org.eclipse.ecf.provider.filetransfer_3.2.800.v20220215-0126.jar	org.eclipse.ecf.provider.filetransfer.source_3.2.800.v20220215-0126.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.ecf.provider.filetransfer.source_3.2.800.v20220215-0126.jar
+org.eclipse.ecf.ssl_1.2.401.v20210409-2301.jar	org.eclipse.ecf.ssl.source_1.2.401.v20210409-2301.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.ecf.ssl.source_1.2.401.v20210409-2301.jar
+org.eclipse.ecf_3.10.0.v20210925-0032.jar	org.eclipse.ecf.source_3.10.0.v20210925-0032.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.ecf.source_3.10.0.v20210925-0032.jar
+org.eclipse.emf.common_2.25.0.v20220325-0806.jar	org.eclipse.emf.common.source_2.25.0.v20220325-0806.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.emf.common.source_2.25.0.v20220325-0806.jar
+org.eclipse.emf.ecore.change_2.14.0.v20190528-0725.jar	org.eclipse.emf.ecore.change.source_2.14.0.v20190528-0725.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.emf.ecore.change.source_2.14.0.v20190528-0725.jar
+org.eclipse.emf.ecore.xmi_2.16.0.v20190528-0725.jar	org.eclipse.emf.ecore.xmi.source_2.16.0.v20190528-0725.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.emf.ecore.xmi.source_2.16.0.v20190528-0725.jar
+org.eclipse.emf.ecore_2.27.0.v20220426-0617.jar	org.eclipse.emf.ecore.source_2.27.0.v20220426-0617.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.emf.ecore.source_2.27.0.v20220426-0617.jar
+org.eclipse.jetty.http_10.0.9.jar	org.eclipse.jetty.http.source_10.0.9.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.jetty.http.source_10.0.9.jar
+org.eclipse.jetty.io_10.0.9.jar	org.eclipse.jetty.io.source_10.0.9.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.jetty.io.source_10.0.9.jar
+org.eclipse.jetty.security_10.0.9.jar	org.eclipse.jetty.security.source_10.0.9.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.jetty.security.source_10.0.9.jar
+org.eclipse.jetty.server_10.0.9.jar	org.eclipse.jetty.server.source_10.0.9.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.jetty.server.source_10.0.9.jar
+org.eclipse.jetty.servlet_10.0.9.jar	org.eclipse.jetty.servlet.source_10.0.9.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.jetty.servlet.source_10.0.9.jar
+org.eclipse.jetty.util.ajax_10.0.9.jar	org.eclipse.jetty.util.ajax.source_10.0.9.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.jetty.util.ajax.source_10.0.9.jar
+org.eclipse.jetty.util_10.0.9.jar	org.eclipse.jetty.util.source_10.0.9.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.eclipse.jetty.util.source_10.0.9.jar
+org.sat4j.core_2.3.6.v20201214.jar	org.sat4j.core.source_2.3.6.v20201214.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.sat4j.core.source_2.3.6.v20201214.jar
+org.sat4j.pb_2.3.6.v20201214.jar	org.sat4j.pb.source_2.3.6.v20201214.jar	https://download.eclipse.org/releases/2022-06/202206151000/plugins/org.sat4j.pb.source_2.3.6.v20201214.jar
+JNA 5.8.0 native libraries	jna-5.8.0-source.tar.gz	https://github.com/java-native-access/jna/tree/5.8.0
+Corretto async-profiler 4.6	async-profiler-4.6-source.tar.gz	https://github.com/async-profiler/async-profiler/tree/v4.6

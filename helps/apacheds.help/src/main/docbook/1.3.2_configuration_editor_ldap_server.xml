@@ -1,0 +1,236 @@
+<!--
+	Licensed to the Apache Software Foundation (ASF) under one
+	or more contributor license agreements.  See the NOTICE file
+	distributed with this work for additional information
+	regarding copyright ownership.  The ASF licenses this file
+	to you under the Apache License, Version 2.0 (the
+	"License"); you may not use this file except in compliance
+	with the License.  You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing,
+	software distributed under the License is distributed on an
+	"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+	KIND, either express or implied.  See the License for the
+	specific language governing permissions and limitations
+	under the License.
+-->
+<section id="gettingstarted_configuration_editor_ldap_server">
+	<title>LDAP/LDAPS Servers Page</title>
+	<para>
+		The
+		<emphasis role="strong">LDAP/LDAPS Servers page</emphasis>
+		of the configuration editor allows you to edit all LDAP
+		specific settings.
+	</para>
+	<para>
+		It contains the following sections :
+		<emphasis role="strong">LDAP/LDAPS Servers</emphasis>
+		,
+		<emphasis role="strong">Limits</emphasis>
+		,
+		<emphasis role="strong">SSL/Start TLS Keystore</emphasis>
+		,
+		<emphasis role="strong">SSL Advanced Settings</emphasis>
+		,
+		<emphasis role="strong">Supported Authentication Mechanisms</emphasis>
+		,
+		<emphasis role="strong">SASL Settings</emphasis>
+		and
+		<emphasis role="strong">Advanced</emphasis>
+		.
+	</para>
+	<para>
+		Here's what the
+		<emphasis role="strong">LDAP/LDAPS Servers page</emphasis>
+		looks like:
+		<screenshot>
+			<mediaobject>
+				<imageobject>
+					<imagedata scale="33"
+						fileref="images/gettingstarted/editor_2.0.0_ldap_servers.png"
+						format="PNG" />
+				</imageobject>
+			</mediaobject>
+		</screenshot>
+	</para>
+
+	<simplesect
+		id="configuration_editor_2.0.0_ldap_servers_ldap_servers">
+		<title>LDAP/LDAPS Servers</title>
+		<para>
+			This section allows you to enable/disable the LDAP and LDAPS protocols.
+			For each protocol you can specify
+			<itemizedlist spacing="normal" mark="bullet">
+				<listitem>Port: the TCP port the server should listen to</listitem>
+				<listitem>Address: the IP address the server should bind to (default 0.0.0.0 means to bind to all network interfaces)</listitem>
+				<listitem>NbThreads: the number of threads to use to serve requests</listitem>
+				<listitem>Backlog Size: the number of requests to queue when all threads are busy</listitem>
+			</itemizedlist>
+		</para>
+	</simplesect>
+
+	<simplesect
+		id="configuration_editor_2.0.0_ldap_servers_limits">
+		<title>Limits</title>
+		<para>
+			This section allows you to specify the Limits of the server.
+		</para>
+		<para>
+			<emphasis role="strong">Max. Time Limit</emphasis>
+			lets you choose the maximum time that should last a request
+			(in milliseconds).
+		</para>
+		<para>
+			<emphasis role="strong">Max. Size Limit</emphasis>
+			lets you choose the maximum number of entries that should be
+			returned.
+		</para>
+		<para>
+			<emphasis role="strong">Max. PDU Size</emphasis>
+			lets you choose the maximum PDU size (in bytes).
+		</para>
+	</simplesect>
+
+	<simplesect
+		id="configuration_editor_2.0.0_ldap_servers_ssl_keystore">
+		<title>SSL/Start TLS Keystore</title>
+		<para>
+			This section allows you to specify keystore which contains the
+			private key used for SSL and Start TLS sessions.
+		</para>
+		<para>
+			<emphasis role="strong">Keystore</emphasis>
+			lets you select the path to the keystore file.
+		</para>
+		<para>
+			<emphasis role="strong">Password</emphasis>
+			lets you enter the password of the keystore file.
+		</para>
+	</simplesect>
+
+	<simplesect
+		id="configuration_editor_2.0.0_ldap_servers_ssl_advanced">
+		<title>SSL Advanced Settings</title>
+		<para>
+			This section allows you to specify advanced settings for
+			SSL and Start TLS.
+		</para>
+		<para>
+			Check the
+			<emphasis role="strong">Require Client Auth</emphasis>
+			checkbox to require client authentication.
+		</para>
+		<para>
+			Check the
+			<emphasis role="strong">Request Client Auth</emphasis>
+			checkbox to request client authentication.
+		</para>
+		<para>
+			<emphasis role="strong">Ciphers Suite</emphasis>
+			lets you select which cipher suites are allowed to use.
+		</para>
+		<para>
+			<emphasis role="strong">Enabled Protocols</emphasis>
+			lets you select which protocols are enabled
+			(default: TLSv1, TLSv1.1, TLSv1.2).
+		</para>
+	</simplesect>
+
+	<simplesect
+		id="configuration_editor_2.0.0_ldap_servers_supported_authentication_mechanisms">
+		<title>Supported Authentication Mechanisms</title>
+		<para>
+			This section allows you to specify the supported
+			authentication mechanisms. You can choose between the
+			following mechanisms:
+			<itemizedlist spacing="normal" mark="bullet">
+				<listitem>SIMPLE</listitem>
+				<listitem>GSSAPI (SASL)</listitem>
+				<listitem>CRAM-MD5 (SASL)</listitem>
+				<listitem>DIGEST-MD5 (SASL)</listitem>
+				<listitem>NTML (SASL), including the provider</listitem>
+				<listitem>GSS-SPNEGO (SASL), including the provider</listitem>
+			</itemizedlist>
+		</para>
+	</simplesect>
+
+	<simplesect
+		id="configuration_editor_2.0.0_ldap_servers_sasl_settings">
+		<title>SASL Settings</title>
+		<para>
+			This section allows you to specify to the SASL settings.
+		</para>
+		<para>
+			The
+			<emphasis role="strong">SASL Host</emphasis>
+			field represents the name of the host.
+		</para>
+		<para>
+			The
+			<emphasis role="strong">SASL Principal</emphasis>
+			field represents the service principal name that the
+			server-side of the LDAP protocol provider will use to
+			"accept" a GSSAPI context initiated by the LDAP client. The
+			SASL principal MUST follow the name-form
+			"ldap/[fqdn]@[realm]".
+		</para>
+		<para>
+			The
+			<emphasis role="strong">Search Base DN</emphasis>
+			field represents the Distinguished Name where a
+			subtree-scoped DIT search will be performed. This is BOTH
+			where the LDAP service principal must reside, as well as
+			where user principals must reside.
+		</para>
+		<para>
+			The
+			<emphasis role="strong">SASL Realms</emphasis>
+			field allows you specify to the SASL realms.
+		</para>
+		<para>
+			Use the
+			<emphasis role="strong">Add...</emphasis>
+			,
+			<emphasis role="strong">Edit...</emphasis>
+			and
+			<emphasis role="strong">Delete</emphasis>
+			buttons to set your SASL Realms.
+		</para>
+	</simplesect>
+
+	<simplesect
+		id="configuration_editor_2.0.0_ldap_servers_advanced">
+		<title>Advanced</title>
+		<para>
+			This section allows you to specify other advanced
+			settings of the server.
+		</para>
+		<para>
+			Check the
+			<emphasis role="strong">Enable TLS</emphasis>
+			checkbox to enable the Start TLS extended operation.
+		</para>
+		<para>
+			Check the
+			<emphasis role="strong">Enable server-side password hashing</emphasis>
+			checkbox to instruct the server to hash modified user passwords on the
+			server side.
+			When checked this also allows you to select the hashing method to use.
+		</para>
+		<para>
+			The
+			<emphasis role="strong">Replication pinger sleep</emphasis>
+			field allows you to define the frequency how often the replication
+			consumer pings the replication producer (in seconds).
+		</para>
+		<para>
+			The
+			<emphasis role="strong">Disk synchronization delay</emphasis>
+			field allows you to define the frequency how often data is
+			synchronized to the disk (in milliseconds).
+		</para>
+	</simplesect>
+
+</section>
